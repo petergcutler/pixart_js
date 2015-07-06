@@ -9,6 +9,6 @@ for( var i = 0; i < 20; i++ ){
 
 document.body.addEventListener("click", function(event){
   if(event.target.classList.contains("square")){
-    $(event.target).css("background","green") 
+    $(event.target).css("background",$("#color-field").val()) 
   }
 })
